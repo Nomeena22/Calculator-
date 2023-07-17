@@ -1,0 +1,44 @@
+<!DOCTYPE.html>
+ <html>
+  <head>
+   <meta charset="UTF-8">
+   <meta name="veiwpoint" content =width="device-width,initial-scal=1"></meta>
+   <title> Calculator </title>
+   <link rel="stylesheet" href="file.css">
+   <script src="file.js"></script>
+
+ </head>
+   <body>
+     <form name ="cal"class="calculator"action=HTML.htmlmethod="POST">
+   <input type="text" name ="answer"id="display">
+<br><br>
+
+   <input type="button"class="num" value ="7" onclick ="cal.display.value+='7'">
+   <input type="button"class="num" value ="8" onclick ="cal.display.value+='8'">
+   <input type="button"class="num" value ="9" onclick ="cal.display.value+='9'">
+   <input type="button"class="operator" value ="+" onclick ="cal.display.value+='+'">
+ <br><br>
+   <input type="button"class="num" value ="4" onclick ="cal.display.value+='4'">
+   <input type="button"class="num" value ="5" onclick ="cal.display.value+='5'">
+   <input type="button"class="num" value ="6" onclick ="cal.display.value+='6'">
+   <input type="button"class="operator" value ="-" onclick ="cal.display.value+='-'">
+<br><br>
+   <input type="button"class="num" value ="1" onclick ="cal.display.value+='1'">
+   <input type="button"class="num" value ="2" onclick ="cal.display.value+='2'">
+   <input type="button"class="num" value ="3" onclick ="cal.display.value+='3'">
+   <input type="button"class="operator" value ="*" onclick ="cal.display.value+='*'">
+ <br><br>
+   <input type="button"class="operator" value ="/" onclick ="cal.display.value+='/'">
+   <input type="button"class="num" value ="0" onclick ="cal.display.value+='0'">
+   <input type="button"class="operator" value ="%" onclick ="cal.display.value+='%'">
+   <input type="button"class="operator" value ="=" onclick ="cal.display.value =eval(cal.display.value)">
+ <br><br>
+   <input type="button"class="operator" value ="DEL" onclick ="cal.display.value=''">
+   <input type="button"class="operator" value=" √ " onclick="sq()">
+
+   <input type="button"class="operator" value ="." onclick ="cal.display.value+='.'">
+  <input type="button"class="operator"value="C"onclick="cal.display.value.substracting(0,cal.display.value.length*1-1)">
+</form>
+
+   </body>
+</html>

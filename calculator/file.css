@@ -1,0 +1,52 @@
+/*I don't have grip knowled about CSS,i am on my learning process ,pleases hates off if it look similar*/
+body {
+    background-color:white;
+
+}
+input:hover{
+    background-color:#A67A30;
+    color:black;
+}
+.calculator{
+    width:267px;
+    height:40ppx;
+    background:#2C344F;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding:10px;
+    margin:auto;
+}
+#display{
+    background-color:white;
+    width:100%;
+    padding:5px;
+    font-size:22px;
+    font-weight: bold;
+    margin-top:30px;
+    border-radius:10px;
+    border-color:grey;
+}
+.num{
+    background-color:#76d5d8 ;
+    color: white;
+    width:63px;
+    padding:5px;
+    font-size:22px;
+    font-weight:bold;
+    outline: none;
+    border: 2px solid #215c5e;
+    border-radius:50px;
+    border-color: black;
+}
+.operator{
+    background-color: rgb(39, 142, 160);
+    color: white;
+    width:63px;
+    padding:5px;
+    font-size:22px;
+    font-weight:bold;
+    border: 2px solid #215c5e;
+    outline: none;
+    border-radius:50px;
+    border-color: blackl;
+}
